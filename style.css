@@ -41,10 +41,11 @@ margin: 30px 30px;
 }
 @media(max-width:900px){
     .all-items{
-   display:flex ;
+    display:flex ;
    flex-direction: column;
-   margin: 0 30px;
-}
+   justify-content: center;
+   align-items: center;
+
 }
 .item {
     background-color: rgb(9, 31, 129);
